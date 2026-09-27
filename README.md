@@ -200,20 +200,41 @@ Contains premium-related application functionality and UI.
 * Premium feature support
 * Multiple creative generation workflows
 
-## 📸 Screenshots
+## 📸 Application Screenshots
 
-Add application screenshots here to showcase the UI and main features.
+The following screenshots showcase the main user interface and features of the **AI-Powered Emoji Generator**.
 
-Example:
+### 🏠 Home Screen
 
-```text
-screenshots/
-├── home.png
-├── ai-emoji.png
-├── image-to-emoji.png
-├── discover.png
-└── preview.png
-```
+<p align="center">
+  <img src="./home%20Screen.png" alt="AI Emoji Generator Home Screen" width="100%">
+</p>
+
+### 🤖 Emoji Generator
+
+<p align="center">
+  <img src="./Emoji%20Genrator.png" alt="AI Emoji Generator Screen" width="100%">
+</p>
+
+### 😀 My Emojis
+
+<p align="center">
+  <img src="./My%20Emoji.png" alt="My Emojis Screen" width="100%">
+</p>
+
+### 🔍 Discover
+
+<p align="center">
+  <img src="./Discover%20Screen.png" alt="Discover Screen" width="100%">
+</p>
+
+### 🕘 Emoji History
+
+<p align="center">
+  <img src="./Emoji%20History.png" alt="Emoji History Screen" width="100%">
+</p>
+
+---
 
 ## 🔮 Future Improvements
 
