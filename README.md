@@ -237,7 +237,3 @@ Focused on building modern mobile applications using **Flutter, Android, Firebas
 ## 📄 License
 
 This project is intended for **portfolio and educational purposes**.
-
----
-
-⭐ If you find this project interesting, feel free to explore the repository and its implementation.
