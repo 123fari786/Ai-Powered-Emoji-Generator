@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "176813042326",
+    "project_id": "aiemojie",
+    "storage_bucket": "aiemojie.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176813042326:android:5c5573a248bea502cbf0b7",
+        "android_client_info": {
+          "package_name": "com.example.ai_emoji_maker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG1rW8bt5Sxktkl4gGxuPT2_tjAPdUrfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176813042326:android:9b24ecc0b0a63c10cbf0b7",
+        "android_client_info": {
+          "package_name": "com.emoji.maker.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG1rW8bt5Sxktkl4gGxuPT2_tjAPdUrfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

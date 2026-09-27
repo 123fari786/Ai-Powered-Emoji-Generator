@@ -1,0 +1,209 @@
+{
+	"info": {
+		"_postman_id": "5bf477f8-6089-4064-9b4b-c9f30bb53fa6",
+		"name": "emojiGenerator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45929260"
+	},
+	"item": [
+		{
+			"name": "image-to-sticker",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "pk_7cecaa59e7bd4860b566fcf4382de14c",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "X-Api-Key",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image_url",
+							"value": "https://media.istockphoto.com/id/1353379172/photo/cute-little-african-american-girl-looking-at-camera.jpg?s=612x612&w=0&k=20&c=RCOYytwS2nMGfEb80oyeiCcIiqMQu6wnTluAaxMBye4=",
+							"type": "text"
+						},
+						{
+							"key": "style",
+							"value": "3D",
+							"type": "text"
+						},
+						{
+							"key": "prompt",
+							"value": "create an emoji ",
+							"type": "text"
+						},
+						{
+							"key": "appID",
+							"value": "mobile",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://ai-image-service-hi5b6srqfq-uc.a.run.app/image-to-sticker",
+					"protocol": "https",
+					"host": [
+						"ai-image-service-hi5b6srqfq-uc",
+						"a",
+						"run",
+						"app"
+					],
+					"path": [
+						"image-to-sticker"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "image-to-emoji",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "pk_7cecaa59e7bd4860b566fcf4382de14c",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "X-Api-Key",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image_url",
+							"value": "https://media.istockphoto.com/id/1353379172/photo/cute-little-african-american-girl-looking-at-camera.jpg?s=612x612&w=0&k=20&c=RCOYytwS2nMGfEb80oyeiCcIiqMQu6wnTluAaxMBye4=",
+							"type": "text"
+						},
+						{
+							"key": "style ",
+							"value": "Classic",
+							"type": "text"
+						},
+						{
+							"key": "prompt",
+							"value": "Create emoji of this image",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "appID",
+							"value": "mobile",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://ai-image-service-hi5b6srqfq-uc.a.run.app/image-to-emoji",
+					"protocol": "https",
+					"host": [
+						"ai-image-service-hi5b6srqfq-uc",
+						"a",
+						"run",
+						"app"
+					],
+					"path": [
+						"image-to-emoji"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ai-prompt-emoji",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "pk_7cecaa59e7bd4860b566fcf4382de14c",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "X-Api-Key",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "prompt",
+							"value": "Create an emoji with broken teeth and bruised left eye",
+							"type": "text"
+						},
+						{
+							"key": "style",
+							"value": "Cartoon",
+							"type": "text"
+						},
+						{
+							"key": "appID",
+							"value": "mobile",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://ai-image-service-hi5b6srqfq-uc.a.run.app/ai-prompt-emoji",
+					"protocol": "https",
+					"host": [
+						"ai-image-service-hi5b6srqfq-uc",
+						"a",
+						"run",
+						"app"
+					],
+					"path": [
+						"ai-prompt-emoji"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

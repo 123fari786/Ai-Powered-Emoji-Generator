@@ -1,0 +1,61 @@
+{
+  "totalCategories": 7,
+  "categories": [
+    {
+      "name": "Emoji",
+      "counts": 10,
+      "emojis": [
+        { "name": "Cute Cat", "emojiUrl": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f431.png" },
+        { "name": "Happy Dog", "emojiUrl": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f436.png" }
+      ]
+    },
+    {
+      "name": "Animals",
+      "counts": 10,
+      "emojis": [
+        { "name": "Cute Cat", "emojiUrl": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f431.png" },
+        { "name": "Happy Dog", "emojiUrl": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f436.png" }
+      ]
+    },
+    {
+      "name": "Food",
+      "counts": 10,
+      "emojis": [
+        { "name": "Pizza", "emojiUrl": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f355.png" },
+        { "name": "Burger", "emojiUrl": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f354.png" }
+      ]
+    },
+    {
+      "name": "Love",
+      "counts": 10,
+      "emojis": [
+        { "name": "Heart Eyes", "emojiUrl": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f60d.png" },
+        { "name": "Love Heart", "emojiUrl": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/2764.png" }
+      ]
+    },
+    {
+      "name": "Sports",
+      "counts": 10,
+      "emojis": [
+        { "name": "Football", "emojiUrl": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/26bd.png" },
+        { "name": "Basketball", "emojiUrl": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3c0.png" }
+      ]
+    },
+    {
+      "name": "Weather",
+      "counts": 10,
+      "emojis": [
+        { "name": "Sun", "emojiUrl": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/2600.png" },
+        { "name": "Rain Cloud", "emojiUrl": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f327.png" }
+      ]
+    },
+    {
+      "name": "Animals Funny",
+      "counts": 10,
+      "emojis": [
+        { "name": "Monkey Laugh", "emojiUrl": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f606.png" },
+        { "name": "Crazy Panda", "emojiUrl": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f43c.png" }
+      ]
+    }
+  ]
+}
